@@ -1,22 +1,22 @@
 Package: NNPreg
 Title: Nuclear Norm Penalized Regression
-Version: 0.0.0.9000
-Authors@R:
+Version: 0.1.0
+Authors@R: 
     person("Mayukh", "Choudhury", role = c("aut", "cre"),
            email = "mayukh.iitb@gmail.com")
-Description: Fits nuclear norm penalized multivariate linear regression
-    models using the fast iterative shrinkage-thresholding algorithm
-    (FISTA) of Beck and Teboulle (2009) <doi:10.1137/080716542>. Provides
-    fixed-penalty estimation, regularization paths, K-fold
-    cross-validation, prediction, coefficient extraction, and diagnostic
+Description: Fits nuclear norm penalized multivariate linear regression 
+    models using the fast iterative shrinkage-thresholding algorithm 
+    (FISTA) of Beck and Teboulle (2009) <doi:10.1137/080716542>. Provides 
+    fixed-penalty estimation, regularization paths, K-fold 
+    cross-validation, prediction, coefficient extraction, and diagnostic 
     plots.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 8.0.0
-Imports:
+Imports: 
     graphics,
     stats
-Suggests:
+Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
