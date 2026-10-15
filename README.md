@@ -2,7 +2,13 @@
 
 $$\begin{aligned} \tilde{A}_n &= \arg\min_{B\in\mathbf{R}^{p\times T}} \left( \Vert{}Y - XB\Vert{}_F^2 + \lambda_n \Vert{}\sigma(B)\Vert{}_1 \right)\end{aligned}$$
 
-The nuclear norm of a matrix $Z$ is defined as $\|Z\|_{*} = \|\sigma(Z)\|_1 = \sum_{j=1}^{m}\sigma_j(Z)$, where $\lambda_n > 0$ is the regularization parameter.
+The nuclear norm of a matrix $Z$ is defined as:
+
+$$
+\|Z\|_{*} = \|\sigma(Z)\|_1 = \sum_{j=1}^{m}\sigma_j(Z),
+$$
+
+and $\lambda_n > 0$ is the regularization parameter.
 
 ## Installation
 
