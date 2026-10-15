@@ -8,7 +8,7 @@ $$
 \|Z\|_{*} = \|\sigma(Z)\|_1 = \sum_{j=1}^{m}\sigma_j(Z),
 $$
 
-where $m:=\min\{p,T\}$ and $\lambda_n > 0$ is the regularization parameter.
+where $m:=\min\left(p,T\right)$ and $\lambda_n > 0$ is the regularization parameter.
 
 ## Installation
 
