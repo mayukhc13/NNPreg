@@ -1,0 +1,2 @@
+# R Directory
+This folder contains the source code files for the NNPreg package, implementing nuclear norm penalized regression algorithms.
