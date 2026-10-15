@@ -1,0 +1,2 @@
+# Tests Directory
+This folder contains the unit tests and testing scripts for the NNPreg package, utilized for validating package functions and ensuring robust performance.
