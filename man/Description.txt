@@ -1,0 +1,2 @@
+# Man Directory
+This folder contains the documentation files (.Rd) for the NNPreg package functions, generated for R help pages and user manuals.
