@@ -6,6 +6,8 @@
 #' @param x An object of class \code{"nnp"} or \code{"nnp.path"}.
 #' @param ... Additional arguments.
 #'
+#' @return The input object \code{x}, invisibly.
+#'
 #' @export
 print.nnp <- function(x, ...) {
 
@@ -73,6 +75,8 @@ print.nnp <- function(x, ...) {
 #' @param x An object of class \code{"nnp.path"}.
 #' @param ... Additional arguments.
 #'
+#' @return The input object \code{x}, invisibly.
+#'
 #' @export
 print.nnp.path <- function(x, ...) {
 
@@ -92,3 +96,4 @@ print.nnp.path <- function(x, ...) {
 
   invisible(x)
 }
+
