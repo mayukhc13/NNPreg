@@ -20,6 +20,8 @@
 #'   lambda grid to the CV plot.
 #' @param ... Additional graphical parameters.
 #'
+#' @return No return value, called for side effects
+#'
 #' @export
 plot.nnp <- function(x,
                      type = c("cv", "rank", "coef", "all"),
@@ -355,3 +357,4 @@ plot_nnp_all <- function(x,
     ...
   )
 }
+
